@@ -2,8 +2,10 @@ package main
 
 import "fmt"
 
-var eko string="eko"
+type noKTP string
+var noKTPEko noKTP= "tes"
 
 func main() {
-	fmt.Println(eko)
+
+	fmt.Println("tes")
 }
